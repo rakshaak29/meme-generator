@@ -508,6 +508,10 @@
         document.getElementById('customImageInput').value = "";
         customImageBase64 = null;
         
+        const preview = document.getElementById("customImagePreview");
+        preview.src = "";
+        preview.style.display = "none";
+        
         checkReady();
       }
 
@@ -552,6 +556,7 @@
             display.innerHTML = `<img src="${data.image}" alt="Meme about ${topic}" style="max-width: 100%; height: auto; display: block; margin: auto;">`;
             currentMeme = data.image;
             document.getElementById("downloadBtn").style.display = "block";
+            showToast("Meme Generated!", "success");
             document.getElementById("explainBtn").style.display = "block";
             document.getElementById("explanationBox").style.display = "none";
           } else {
@@ -564,7 +569,6 @@
         } finally {
           btn.disabled = false;
           btn.innerHTML = "GENERATE";
-          showToast();
         }
       }
 

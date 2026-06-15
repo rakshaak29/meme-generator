@@ -8,12 +8,12 @@ The application is powered by `Express.js`, leverages `Jimp` for on-the-fly imag
 
 ##  Key Features
 
-- ** Neo-Brutalist UI**: A vibrant, glassmorphic, and highly interactive user interface designed to be bold and functional.
-- ** Smart AI Integration**: Provide your own OpenAI API key (`sk-...`) to generate unique, personalized meme captions based on the topic you choose.
-- ** 25+ Built-in Templates**: Choose from a massive library of classic memes (e.g., *Drake, Distracted Boyfriend, Trade Offer, Always Has Been*).
-- ** Custom Image Uploads**: Bypass the templates and upload your own images. The app will automatically scale and stamp text onto your custom files (supports files up to 50MB).
-- ** Deep Fry Filter**: A unique, built-in image processing filter that cranks up contrast, maximizes saturation, and applies pixel noise to emulate the classic "deep-fried" internet aesthetic.
-- ** Robust Fallbacks**: Don't have an API key? No problem. The app has built-in, context-aware fallback text for every single template, so you'll still get a funny meme.
+- **Neo-Brutalist UI**: A vibrant, glassmorphic, and highly interactive user interface designed to be bold and functional.
+- **Smart AI Integration**: Provide your own OpenAI API key (`sk-...`) to generate unique, personalized meme captions based on the topic you choose.
+- **25+ Built-in Templates**: Choose from a massive library of classic memes (e.g., *Drake, Distracted Boyfriend, Trade Offer, Always Has Been*).
+- **Custom Image Uploads**: Bypass the templates and upload your own images. The app will automatically scale and stamp text onto your custom files (supports files up to 50MB).
+- **Deep Fry Filter**: A unique, built-in image processing filter that cranks up contrast, maximizes saturation, and applies pixel noise to emulate the classic "deep-fried" internet aesthetic.
+- **Robust Fallbacks**: Don't have an API key? No problem. The app has built-in, context-aware fallback text for every single template, so you'll still get a funny meme.
 
 ##  Technology Stack
 

@@ -1,4 +1,4 @@
-# MemeGen: Neo-Brutalist AI Meme Generator 🚀
+# MemeGen: Neo-Brutalist AI Meme Generator 
 
 **Live Demo**: [https://memes-here.netlify.app/](https://memes-here.netlify.app/)
 
@@ -6,23 +6,23 @@ MemeGen is a high-performance, fully functional meme generator built with a stri
 
 The application is powered by `Express.js`, leverages `Jimp` for on-the-fly image manipulation, and integrates with the **OpenAI API** to automatically generate context-aware, highly relevant meme text based on trending topics.
 
-## ✨ Key Features
+##  Key Features
 
-- **🎨 Neo-Brutalist UI**: A vibrant, glassmorphic, and highly interactive user interface designed to be bold and functional.
-- **🧠 Smart AI Integration**: Provide your own OpenAI API key (`sk-...`) to generate unique, personalized meme captions based on the topic you choose.
-- **🖼️ 25+ Built-in Templates**: Choose from a massive library of classic memes (e.g., *Drake, Distracted Boyfriend, Trade Offer, Always Has Been*).
-- **📂 Custom Image Uploads**: Bypass the templates and upload your own images. The app will automatically scale and stamp text onto your custom files (supports files up to 50MB).
-- **🔥 Deep Fry Filter**: A unique, built-in image processing filter that cranks up contrast, maximizes saturation, and applies pixel noise to emulate the classic "deep-fried" internet aesthetic.
-- **🛡️ Robust Fallbacks**: Don't have an API key? No problem. The app has built-in, context-aware fallback text for every single template, so you'll still get a funny meme.
+- ** Neo-Brutalist UI**: A vibrant, glassmorphic, and highly interactive user interface designed to be bold and functional.
+- ** Smart AI Integration**: Provide your own OpenAI API key (`sk-...`) to generate unique, personalized meme captions based on the topic you choose.
+- ** 25+ Built-in Templates**: Choose from a massive library of classic memes (e.g., *Drake, Distracted Boyfriend, Trade Offer, Always Has Been*).
+- ** Custom Image Uploads**: Bypass the templates and upload your own images. The app will automatically scale and stamp text onto your custom files (supports files up to 50MB).
+- ** Deep Fry Filter**: A unique, built-in image processing filter that cranks up contrast, maximizes saturation, and applies pixel noise to emulate the classic "deep-fried" internet aesthetic.
+- ** Robust Fallbacks**: Don't have an API key? No problem. The app has built-in, context-aware fallback text for every single template, so you'll still get a funny meme.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Frontend**: Vanilla HTML, CSS, JavaScript (Zero dependencies, incredibly fast).
 - **Backend**: Node.js, Express.js.
 - **Image Processing**: Jimp (pure JavaScript image processing).
 - **AI**: OpenAI API (GPT-4o-mini).
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) installed on your machine.
@@ -49,7 +49,7 @@ The application is powered by `Express.js`, leverages `Jimp` for on-the-fly imag
 
 4. Open your browser and navigate to `http://localhost:3000` (or the port specified in your console).
 
-## 💡 How to Use
+##  How to Use
 
 1. **AI Settings (Optional)**: Paste your OpenAI API key into the top-left box to enable dynamic AI text generation. If you skip this, the app will just use its funny built-in text.
 2. **Select a Topic**: Click on a trending topic (like *Skibidi Toilet* or *Debugging at 3am*) or type your own custom topic.
@@ -58,6 +58,6 @@ The application is powered by `Express.js`, leverages `Jimp` for on-the-fly imag
 5. **Extras**: Check "Deep Fry Meme" if you want to distort the image.
 6. **Generate & Download**: Hit Generate! Once the meme is rendered, a Download button will appear so you can save your masterpiece.
 
-## 📄 License
+##  License
 
 This project is open-source and available under the MIT License.
